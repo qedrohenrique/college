@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main()
+{
+    int amostra, H[10000];
+
+    while (1) {
+        int i, picos = 0;
+        scanf("%d\n", &amostra);
+        if (!amostra) break;
+
+        for (i = 0; i < amostra; ++i)
+            scanf("%d", &H[i]);
+
+        for (i = 0; i < amostra; ++i) {
+            int ant = ((i - 1) % amostra + amostra) % amostra;
+            int prox = (i + 1) % amostra;
+            if (H[i] > H[ant] && H[i] > H[prox] ||
+                H[i] < H[ant] && H[i] < H[prox])
+                ++picos;
+        }
+
+        printf("%d\n", picos);
+    }
+return 0;
+}

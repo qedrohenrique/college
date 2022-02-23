@@ -1,0 +1,3 @@
+palavraUm 15
+palavraDois 2
+palavraTres 3
