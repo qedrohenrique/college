@@ -1,0 +1,50 @@
+#include <stdio.h>
+
+int main(){
+
+    int diaI, horaI, minI, segI;
+    int diaF, horaF, minF, segF;
+    int diaT, horaT, minT, segT;
+
+    scanf("Dia %d", &diaI);
+    scanf("%d : %d : %d\n", &horaI, &minI, &segI);
+    scanf("Dia %d", &diaF);
+    scanf("%d : %d : %d", &horaF, &minF, &segF);
+
+    //Dias
+    diaT = diaF-diaI;
+
+    //Horas
+    if(horaI>horaF){
+        diaT--;
+        horaF+=24;
+        horaT=horaF-horaI;
+    }else{
+        horaT=horaF-horaI;
+    }
+
+    //Minutos
+    if(minI>minF){
+        horaT--;
+        minF+=60;
+        minT=minF-minI;
+    }else{
+        minT=minF-minI;
+    }
+
+    //Segundos
+    if(segI>segF){
+        minT--;
+        segF+=60;
+        segT=segF-segI;
+    }else{
+        segT=segF-segI;
+    }
+
+    printf("%d dia(s)\n", diaT);
+    printf("%d hora(s)\n", horaT);
+    printf("%d minuto(s)\n", minT);
+    printf("%d segundo(s)\n", segT);
+
+    return 0;
+}

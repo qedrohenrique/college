@@ -1,0 +1,3 @@
+2 palavraDois
+3 palavraTres
+15 palavraUm
