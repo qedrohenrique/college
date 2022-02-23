@@ -1,1 +1,1 @@
-Lógica de Programação - Unifesp SJC 
+Lógica de Programação
