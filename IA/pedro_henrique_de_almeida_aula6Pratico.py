@@ -34,7 +34,7 @@ def main():
     firstCrossover = leftFirstIndv + rightSecondIndv
     secondCrossover = leftSecondIndv + rightFirstIndv
     
-    # Probability of interssection of A with B is P(A) + P(B) - P(AUB)
+    # Probability of Union of A with B is P(A) + P(B) - P(AUB) - U here is interssection lol
     # where the event A is the first individual becoming the target individual
     # B is the second individual becoming the target individual
     # and AUB is the event where both become the target individual
