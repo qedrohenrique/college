@@ -1,0 +1,8 @@
+{
+  "files.associations": {
+    "get_token.h": "c",
+    "analyze.h": "c",
+    "symbol_table_node.h": "c",
+    "syntax_tree.h": "c"
+  }
+}
