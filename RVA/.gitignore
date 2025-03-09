@@ -1,0 +1,9 @@
+__pycache__
+Camera/images/*
+Camera/calibration.pkl
+Camera/caliResult1.png
+Camera/caliResult2.png
+Camera/cameraMatrix.pkl
+Camera/dist.pkl
+venv
+.env*

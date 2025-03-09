@@ -1,0 +1,9 @@
+flowId,nodeType,throughput,packetLoss,delay
+1,wireless,80642.15,0.00,0.01
+2,wireless,101647.06,0.00,0.01
+3,wireless,128222.52,12.50,0.02
+4,wireless,82191.78,0.00,0.01
+5,wireless,101670.98,0.00,0.02
+6,wireless,88943.79,0.00,0.01
+7,wireless,124531.57,0.00,0.02
+8,wireless,150943.40,0.00,0.02
