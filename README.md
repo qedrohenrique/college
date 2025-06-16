@@ -1,6 +1,16 @@
 # College
-Stuff from college.
-UNIFESP S&T / CS
 
-Legit random things, it may doesn't make any sense.
-Feel free to use it, even copy, but be careful!
+This is a collection of exercises and projects I developed during my graduation at UNIFESP/ICT.
+
+Feel free to copy and use them into your own code.
+
+### **There are stuff about the following topics:**
+
+- Algorithms and Data Structures
+- Artificial Intelligence
+- Compilators
+- Networks
+- Math
+- Operating Systems
+- XR
+- and more...
