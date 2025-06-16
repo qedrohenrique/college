@@ -1,16 +1,15 @@
 # College
 
-This is a collection of exercises and projects I developed during my graduation at UNIFESP/ICT.
+This is a collection of exercises and projects I developed during my studies at UNIFESP/ICT.
+Feel free to copy and use them in your own code.
 
-Feel free to copy and use them into your own code.
-
-### **There are stuff about the following topics:**
+### **This repository contains materials related to the following topics:**
 
 - Algorithms and Data Structures
 - Artificial Intelligence
-- Compilators
+- Compilers
 - Networks
-- Math
+- Mathematics
 - Operating Systems
 - XR
-- and more...
+- And more...
